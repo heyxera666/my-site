@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Task Manager</title>
+  <title>Продленка - Блокнот для детей</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Task Manager</h1>
+    <h1>Продленка</h1>
+    <img src="https://avatars.mds.yandex.net/i?id=c2ae81528c91b4621601a447c319b704b9334f37-4872026-images-thumbs&n=13" alt="Игрушки" class="header-img">
+    <p>Добавляй свои задачи на сегодня!</p>
+
     <div class="task-input">
-      <input type="text" id="taskInput" placeholder="Введите задачу">
+      <input type="text" id="taskInput" placeholder="Что сегодня делать?">
       <button id="addTaskBtn">Добавить</button>
     </div>
-    <ul id="taskList"></ul>
+
+    <div id="taskList"></div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

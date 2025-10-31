@@ -2,24 +2,19 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task Manager</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>Task Manager</h1>
-
-    <div class="controls">
-      <input type="text" id="newTask" placeholder="Введите задачу">
-      <button id="addBtn">Добавить</button>
-      <input type="text" id="search" placeholder="Поиск...">
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Введите задачу">
+      <button id="addTaskBtn">Добавить</button>
     </div>
-
     <ul id="taskList"></ul>
-
-    <div id="pagination" class="pagination"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
